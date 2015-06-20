@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url(http://fonts.gstatic.com/s/lato/v11/GtRkRNTnri0g82CjKnEB0Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(bg/bg1.jpg);
+    background-size: cover;
+}
+#hours, #minutes {
+    border: solid 1px white;
+    color: white;
+    padding: 5px;
+    font-size: 100px;
+    font-family: "Lato";
+}
+#hours {
+    margin-right: 127px;
+}
+#minutes {
+    margin-left: 127px;
+    margin-top: -1px;
+}
