@@ -1,0 +1,15 @@
+.clock {
+    border: solid 1px white;
+    color: white;
+    padding: 5px;
+    font-size: 100px;
+    font-family: "Lato";
+    display: inline;
+}
+#hours, #minutes {
+    display: inline;
+}
+#hours:after {
+    content: ":";
+    margin-right: -25px;
+}

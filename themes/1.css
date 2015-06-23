@@ -1,0 +1,14 @@
+#hours, #minutes {
+    border: solid 1px white;
+    color: white;
+    padding: 5px;
+    font-size: 100px;
+    font-family: "Lato";
+}
+#hours {
+    margin-right: 127px;
+}
+#minutes {
+    margin-left: 127px;
+    margin-top: -1px;
+}
