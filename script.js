@@ -53,7 +53,7 @@ var NTP = {
         setCookie("theme", NTP.currentTheme);
     },
     changeBackground: function() {
-        if (NTP.currentBackground < 35) {
+        if (NTP.currentBackground < 30) {
             NTP.currentBackground++;
             document.body.style.backgroundImage = "url(bg/" + NTP.currentBackground + ".jpg)";
         } else {
