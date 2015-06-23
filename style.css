@@ -16,8 +16,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(bg/2.jpg);
-    background-image: url(bg/1.jpg);
     background-size: cover;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -25,21 +23,4 @@ body {
     -ms-user-select: none;
     user-select: none;
     cursor: default;
-}
-
-#themeButton, #backgroundButton {
-    background: white;
-    height: 30px;
-    width: 30px;
-    position: fixed;
-    bottom: 20px;
-    border-radius: 50%;
-    opacity: .1;
-    cursor: pointer;
-}
-#themeButton {
-    left: 20px;
-}
-#backgroundButton {
-    right: 20px;
 }
