@@ -4,6 +4,7 @@
     padding: 5px;
     font-size: 100px;
     font-family: "Lato";
+    text-align: center;
     display: inline;
 }
 #hours, #minutes {

@@ -1,13 +1,14 @@
 {
     "manifest_version": 2,
     "name": "MinimNTP",
-    "description": "A minimalistic New Tab Page featuring photography by Erik Boesen.",
+    "description": "A minimalistic New Tab Page featuring high-quality photography by Erik Boesen.",
     "icons": {
         "128": "icon.png"
     },
-    "version": "0.2.2",
+    "version": "0.3",
     "permissions" : [],
     "chrome_url_overrides" : {
         "newtab": "newtab.html"
-    }
+    },
+    "options_page": "options.html"
  }
