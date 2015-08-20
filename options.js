@@ -1,9 +1,9 @@
 function loadOptions() {
 	 var currentFormat = localStorage.currentFormat;
 
-	  var select = document.getElementById("format");
-    for (var i = 0; i < select.children.length; i++) {
-		     var child = select.children[i];
+	  var format = document.getElementById("format");
+    for (var i = 0; i < format.children.length; i++) {
+		     var child = format.children[i];
 			if (child.value == currentFormat) {
 			child.selected = "true";
 			break;
@@ -12,9 +12,9 @@ function loadOptions() {
 }
 
 function saveOptions() {
-  var select = document.getElementById("format");
-	var format = select.children[select.selectedIndex].value;
-	localStorage.currentFormat = format;
+  	var format = document.getElementById("format");
+	var currentFormat = format.children[format.selectedIndex].value;
+	localStorage.currentFormat = currentFormat;
 }
 
 addEventListener("load", loadOptions);

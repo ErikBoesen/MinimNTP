@@ -12,28 +12,17 @@ html, body {
     margin: 0;
 }
 body {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-            justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-size: cover;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
     user-select: none;
     cursor: default;
 }
 #bg {
     background-size: cover;
+    background-position: center;
     position: fixed;
     z-index: -1;
     margin: 0;
@@ -41,5 +30,9 @@ body {
     left: 0;
     bottom: 0;
     right: 0;
-    -webkit-filter: brightness(.9);
+}
+.clock {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
