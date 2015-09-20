@@ -13,7 +13,7 @@ var clock = function() {
 };
 addEventListener('load', function () {
     clock();
-    document.getElementById("bg").style.backgroundImage = "url(bg/" + (Math.floor(Math.random() * 17) + 1) + ".jpg)";
+    document.getElementById("bg").style.backgroundImage = "url(bg/" + (Math.floor(Math.random() * 11) + 1) + ".jpg)";
     document.getElementById("theme").href = "themes/" + (Math.floor(Math.random() * 4) + 1) + ".css";
     setInterval(function() {clock();}, 200);
 });

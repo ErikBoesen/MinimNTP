@@ -5,16 +5,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
-select {
-    padding-left: 28px;
-    background: 0;
-    border: 0;
-    outline: 0;
-    background-color: #eee;
-    color: #333;
+div, select {
+    background: #eee;
     width: 120px;
     height: 60px;
+}
+select {
+    outline: 0;
+    border: 0;
+    color: #333;
     text-align: center;
     font-size: 16px;
     user-select: none;
@@ -40,4 +41,14 @@ button:hover {
 }
 button:active {
     background-color: lightsteelblue;
+}
+a {
+    text-align: center;
+    color: #666;
+    font-size: 1.4em;
+    margin-top: 20px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
