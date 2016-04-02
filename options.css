@@ -1,11 +1,6 @@
 body {
     background: #333;
     font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
 }
 div, select {
     background: #eee;
@@ -42,13 +37,16 @@ button:hover {
 button:active {
     background-color: lightsteelblue;
 }
-a {
-    text-align: center;
-    color: #666;
-    font-size: 1.4em;
-    margin-top: 20px;
-    text-decoration: none;
-}
 a:hover {
     text-decoration: underline;
+}
+.announcement {
+    background: none;
+    width: auto;
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.4;
+}
+.announcement a {
+    color: inherit;
 }
